@@ -21,4 +21,20 @@ A simple Java implementation of WOL(Wake-On-Lan).
 
 > **Note:** The letters can be both upper and lower case.
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/9a11e7b3eb110284978fb20b8a1d58f1 "githalytics.com")](http://githalytics.com/rmrodrigues/java-wol)
+
+------
+
+## 使用说明
+
+直接java -jar 运行  
+> 参数说明：Mac地址 [广播地址] [端口]
+
+如：
+
+```
+# java -jar wol4j-1.0.0.jar 22-00-DD-11-44-7A 192.168.1.255
+```
+
+> 默认端口是：9
+
+
